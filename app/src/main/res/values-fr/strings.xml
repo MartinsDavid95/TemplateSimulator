@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simulateur de Template</string>
+    <string name="liste_title">Les couleurs</string>
+    <string-array name="liste_couleurs">
+        <item>Bleu</item>
+        <item>Vert</item>
+        <item>Rouge</item>
+        <item>Jaune</item>
+        <item>Orange</item>
+    </string-array>
+</resources>

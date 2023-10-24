@@ -29,6 +29,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
+            android:onClick="pushedButton"
+            android:tag="a01_layout.L01_LinearActivity"
             android:text="Linear\n Layout"
             android:textAllCaps="true" />
 
@@ -38,6 +40,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
+            android:onClick="pushedButton"
+            android:tag="a01_layout.L02_FrameActivity"
             android:text="Frame\n Layout"
             android:textAllCaps="true" />
 
@@ -47,6 +51,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
+            android:onClick="pushedButton"
+            android:tag="a01_layout.L03_RelativeActivity"
             android:text="Relative\n Layout"
             android:textAllCaps="true" />
 
@@ -75,6 +81,8 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:backgroundTint="#3F51B5"
+            android:onClick="pushedButton"
+            android:tag="a03_layout.a01_LoadingActivity"
             android:text="loading"
             android:textAllCaps="true" />
 
@@ -85,6 +93,8 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:backgroundTint="#3F51B5"
+            android:onClick="pushedButton"
+            android:tag="a03_layout.a02_SimpsonActivity"
             android:text="simpson"
             android:textAllCaps="true" />
 
@@ -101,14 +111,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="List View" />
+            android:onClick="pushedButton"
+            android:tag="a04_list.S01_ListeViewActivity"
+            android:text="List View"
+            android:textAllCaps="true" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/btn_spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="pushedButton"
+            android:tag="a04_list.S02_SpinnerActivity"
             android:text="Spinner"
+            android:textAllCaps="true"
             app:iconPadding="8dp" />
     </LinearLayout>
 
