@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TemplateSimulator</string>
+    <string name="liste_title">Les couleurs</string>
+    <string-array name="liste_couleurs">
+        <item>Bleu</item>
+        <item>Vert</item>
+        <item>Rouge</item>
+        <item>Jaune</item>
+        <item>Orange</item>
+    </string-array>
 </resources>
